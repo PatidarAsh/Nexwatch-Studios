@@ -9,7 +9,7 @@ import { getAllfavorites, getTVorMoviesByGenre } from "@/utils";
 import { useSession } from "next-auth/react";
 import { useContext, useEffect } from "react";
 
-export default function medias() {
+export default function Medias() {
   const {
     loggedInAccount,
     mediaData,

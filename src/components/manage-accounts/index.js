@@ -55,7 +55,7 @@ export default function ManageAccounts() {
       setPageLoader(false);
     }
   }
-
+// eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     getAllAccounts();
   }, []);
