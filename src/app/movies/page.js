@@ -7,7 +7,7 @@ import UnauthPage from "@/components/unauth-page";
 import { GlobalContext } from "@/context";
 import { getAllfavorites, getTVorMoviesByGenre } from "@/utils";
 import { useSession } from "next-auth/react";
-import { useContext, useEffect } from "react";
+import React, { useContext, useEffect } from 'react';
 
 export default function Medias() {
   const {
